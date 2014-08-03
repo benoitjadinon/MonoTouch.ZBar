@@ -151,8 +151,8 @@ namespace ZBar
 		
 	*/
 	
-	// @interface ZBarReaderViewController : UIViewController
-	[BaseType (typeof (UIViewController), 
+	// @interface ZBarReaderViewController : UIImagePickerController
+	[BaseType (typeof (UIImagePickerController), 
 	          Delegates=new string [] { "WeakReaderDelegate" }, 
               Events=new Type [] {typeof(ZBarReaderDelegate)})]
 	interface ZBarReaderViewController
