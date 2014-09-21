@@ -92,7 +92,7 @@ namespace ZBar
 		// removed : http://forums.xamarin.com/discussion/18617/noregistrar-issue-with-binding-delegates
 		//[Export ("initWithSymbol:")][Internal]
 		//IntPtr Constructor (IntPtr zbarSymbol, int nothing);
-
+		
 		// + (NSString*) nameForType: (zbar_symbol_type_t) type;
 	}
 	
