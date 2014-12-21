@@ -41,7 +41,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libzbar.a" />
+    <ObjcBindingNativeLibrary Include="libzbar.a">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </ObjcBindingNativeLibrary>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="libzbar.linkwith.cs">
